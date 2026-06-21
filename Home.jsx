@@ -25,7 +25,7 @@ export default function Home() {
             Created by <strong>Vedansh Verma</strong> · Class 11 Commerce with Informatics Practices (IP)
           </span>
         </div>
-        <p className="hero-eyebrow">Created by Vedansh Verma · Class 11 Commerce with Informatics Practices (IP)</p>
+        <p className="hero-eyebrow">Created by Vedansh Verma · Class 11 Commerce with Informatics </p>
         <h1 className="hero-title">
           From <code>print("Hello, World")</code> to production code.
         </h1>
