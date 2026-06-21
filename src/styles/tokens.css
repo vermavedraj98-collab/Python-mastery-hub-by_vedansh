@@ -1,0 +1,47 @@
+/* ============================================================
+   Design tokens — "The Python Trail"
+   Beginner = forest green (Basecamp), Intermediate = gold (Ridge),
+   Advanced = clay/rust (Summit). Light = daytime trail, dark = night trail.
+   ============================================================ */
+
+:root {
+  --bg: #f1eee2;
+  --bg-elevated: #ffffff;
+  --bg-sunken: #e8e3d3;
+  --ink: #1f2a24;
+  --ink-soft: #51604f;
+  --ink-faint: #8b9489;
+  --line: #d9d2bd;
+  --shadow: rgba(31, 42, 36, 0.12);
+
+  --accent-amber: #d98a2b;
+  --tier-beginner: #3f6b52;
+  --tier-intermediate: #c98e36;
+  --tier-advanced: #b1502c;
+
+  --font-display: 'Space Grotesk', 'Segoe UI', sans-serif;
+  --font-body: 'Work Sans', 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+
+  --max-width: 1080px;
+}
+
+[data-theme='dark'] {
+  --bg: #11161a;
+  --bg-elevated: #1a2228;
+  --bg-sunken: #161d22;
+  --ink: #ecead7;
+  --ink-soft: #a9b3aa;
+  --ink-faint: #707d74;
+  --line: #2a3339;
+  --shadow: rgba(0, 0, 0, 0.45);
+
+  --accent-amber: #e8a33d;
+  --tier-beginner: #6fa886;
+  --tier-intermediate: #e0a94b;
+  --tier-advanced: #d9714a;
+}
